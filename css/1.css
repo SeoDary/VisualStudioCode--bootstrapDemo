@@ -1,0 +1,413 @@
+ul
+{
+	list-style: none !important;
+}
+.css
+{
+	background-color: #fff;
+}
+.csss
+{
+	background-color: #f40;
+}
+.cssss
+{
+	background-color: #556;
+}
+/*导航条*/
+.nav-css
+{
+	background-color: #373277;
+	border: 0px solid #373277;
+	box-shadow: 0px 4px 9px #333;
+}
+.brand-imgsize img
+{
+	height: 45px;
+}
+.navbar-brand
+{
+	padding: 0;
+	padding-left: 10px;
+
+}
+.navbar-toggle
+{
+	border: 0px solid #373277;
+}
+.navbar-li a
+{
+	color:#bbb !important;
+	font-size: 16px;
+}
+.navbar-li a:hover{
+	color:#fff !important;
+}
+.nav-search-img a
+{
+	height: 50px;
+	background-color: #474282;
+	border: 0px;
+}
+.nav-search-img a:hover
+{
+	background-color: #474282 !important;
+}
+.nav-input input
+{
+	height:50px;
+	background-color: #474282;
+	border: 0px solid #474282;
+	color: #bbb;
+}
+.nav-download a
+{
+	height: 50px;
+	background-color: #477a32;
+	font-size: 20px;
+	color:#fff !important;
+}
+.nav-download a:hover
+{
+	background-color: #68ab4d !important;
+}
+.nav-download a img
+{
+	width: 30px;height: 18px;
+}
+/*顶部内容1*/
+.space
+{
+	height: 50px;
+	background-color: #373277;
+}
+.content-top1
+{
+	text-align: center;
+	font-size: 16px;
+	line-height: 45px;
+	color: #555555;
+	background-color: #e3e3e3;
+}
+/*顶部图片布局*/
+.content-top2
+{
+	background-color: #373277;
+	height: 500px;
+}
+.content-top2-
+{
+	background-color: #373277;
+	height: 500px;
+}
+
+.content-top2-row
+{
+	height: 500px;
+}
+.content-top2-left
+{
+	width: 400px;height: 500px;
+	background-color: #373277;
+}
+
+.content-top2-p1
+{	
+
+	font-size: 50px;
+	line-height: 50px;
+	color: #fff;
+}
+.content-top2-p2
+{
+	color: #bbb;
+	font-size: 18px;
+}
+.content-top2-download
+{
+	background-color: #373277;
+}
+.content-top2-download a
+{
+	display: block;
+}
+.content-top2-download table
+{
+	color: #000;
+}
+.content-top2-download table img
+{
+	width: 20px;
+}
+.btn-group-css1
+{
+
+	background-color: #477a32;
+	color: #fff;
+}
+.btn-group-css2
+{
+	height: 87px !important;
+	
+	background-color: #68ab4d;
+}
+.delta
+{	
+		width: 0;height: 0;
+		background: #373277;
+		border-style: solid;
+		border-width: 10px;
+		border-color: #262353;
+		border-left-color: transparent;
+		border-top-color: transparent;
+		border-right-color: transparent;
+}
+.content-top2-indu
+{
+	height: 50px;
+	background-color: #262353;
+	border-radius:10px;
+	line-height: 50px;
+	color:#4774282 !important;
+}
+.content-top2-span
+{
+	color: #bbb;
+}
+.content-top2-p3
+{
+	color:#bbb;
+	line-height: 40px;
+}
+.content-top2-a
+{
+	color:#b5a0ff;
+}
+
+/* 四个遮盖互动栏*/
+.content-top3:hover
+{
+	background-color: #ddd;
+}
+.content-top3 a
+{
+	color:#555; 
+	text-decoration: none;
+}
+/*div轮播*/
+.carousel-img
+{
+	width: 100px;
+}
+.carousel-bird
+{
+	width: 20px;
+}
+.carousel-div
+{
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .0);
+  background-color: #fff;
+  filter: alpha(opacity=100);
+  opacity:0;
+}
+.carousel-bgc
+{
+	background-color: #f5f5f5;
+}
+/*轮播以下主要内容content*/
+.content1
+{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.content1-
+{
+	margin-top: 80px;
+}
+.content-p
+{
+	font-size: 18px;
+	color: #555;
+	line-height: 45px;
+}
+.content2
+{
+	background-color: #f5f5f5;
+}
+.content4-img
+{
+	transition: all 0.5s !important;
+}
+.content4-img:hover
+{
+	transform: scale(1.1) !important;
+}
+/*垂直轮播content5 */
+.content5-1
+{
+	font-size: 30px;
+	margin-top:150px;
+	color:#555;
+}
+.updown 
+{
+	overflow: hidden;
+	height: 240px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.updown ul
+{
+	height: 1680px;
+	animation: move 30s infinite;
+}
+.updown li
+{
+	height: 240px;
+}
+.updown ul:hover{
+		animation-play-state: paused;
+	}
+@keyframes move 
+{
+		14%{margin-top:0px;}
+		28%{margin-top:-240px;}
+		42%{margin-top:-480px;}
+		57%{margin-top:-720px;}
+		72%{margin-top:-960px;}
+		86%{margin-top:-1200px;}
+		100%{margin-top:-1440px;}
+}
+.updown p
+{
+	font-size: 21px;
+}
+
+.content5-b
+{
+	height: 60px;
+	background-color: #373277;
+	color: #fff;
+	font-size: 23px;
+	line-height: 60px;
+	margin-bottom: 70px;
+}
+.content5-b:hover
+{
+	opacity: 0.7;
+}
+/*底部内容1buttom1*/
+.pb1
+{
+	color: #fff;
+	font-size: 25px;
+	line-height: 55px;
+}
+.pb2
+{	
+	color: #bbb;
+	font-size: 15px;
+	
+}
+
+.buttom1
+{
+	background-color: #f5f5f5;
+}
+.buttom1-img
+{
+	margin-bottom: 30px;
+}
+
+.buttom1-download
+{
+	margin-top: 90px;
+}
+
+.windows-download
+{
+	height: 100px;
+	background-color: #373277;
+	margin-top: 10px;
+}
+.windows-download:hover
+{
+	opacity: 0.8;
+}
+.windows-download img
+{
+	width: 30px;
+}
+/*底部内容2buttom2*/
+.buttom2
+{
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.buttom2-p1
+{
+	color: #333;
+}
+.buttom2-p2
+{
+	color: #555;
+}
+.buttom2-p3
+{
+	color: #555;
+}
+/*脚*/
+.footer
+{
+	height: 60px;	
+	background-color: rgb(51,51,51);
+}
+.fbtn  img
+{
+	width: 17px;
+}
+.footer .fbtn
+{
+	margin-top: 10px;
+}
+.fspan
+{
+	color: rgb(51,51,51);
+}
+.footer-p1
+{
+	color: #fff;
+}
+.footer-p1 a
+{
+	color: #fff;
+}
+.footer-p2
+{
+	font-size: 12px;
+	line-height: 50px;
+}
+.footer-p2 a
+{
+	color: #fff;
+}
+.footer-p2 img
+{
+	height: 30px;
+}
+.footer-p3 img
+{
+	height: 20px;
+}
